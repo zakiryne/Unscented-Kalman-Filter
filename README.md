@@ -77,13 +77,13 @@ As you can see, the simulator connect to it right away.
 The simulator provides two datasets. The difference between them are:
 
 - The direction the car (the object) is moving.
-- The order the first measurement is sent to the EKF. On dataset 1, the LIDAR measurement is sent first. On the dataset 2, the RADAR measurement is sent first.
+- The order the first measurement is sent to the UKF. On dataset 1, the LIDAR measurement is sent first. On the dataset 2, the RADAR measurement is sent first.
 
-Here is the simulator final state after running the EKL with dataset 1:
+Here is the simulator final state after running the UKL with dataset 1:
 
 ![Simulator with dataset 1](Outputs/UKF_1.png)
 
-Here is the simulator final state after running the EKL with dataset 2:
+Here is the simulator final state after running the UKL with dataset 2:
 
 ![Simulator with dataset 1](Outputs/UKF_2.png)
 
